@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Author ：大汉老师
-# @Software：测码学院
-# @Email:896096254@qq.com
+
 
 from demo31_unit import kaishijieshu
 from demo30_fzhdenglu import fzhdenglu

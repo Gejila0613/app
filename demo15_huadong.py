@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Author ：大汉老师
-# @Software：测码学院
-# @Email:896096254@qq.com
+
 
 from demo4_qu_tiao_try import driver
 from time import sleep
@@ -22,7 +20,7 @@ def xiangzuo():
     x2=int(l[0]*0.1)
     driver.swipe(x1,y1,x2,y1,1000)
 
-for i in range(2):
+for i in range(3):
     xiangzuo()
     sleep(0.5)
 
