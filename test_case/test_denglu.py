@@ -9,15 +9,15 @@ import logging
 class Testdenglu(kaishijieshu):
 
     def test_denglu_cm01(self):
-        logging.info('=========开始登录cemaxueyuan01============')
+        logging.info('=========开始登录01============')
         l= fzhdenglu(self.driver)
-        l.denglu_kaishi('cemaxueyuan01','cema123456')
+        l.denglu_kaishi('try01','123456')
 
 
     def test_denglu_cm02(self):
-        logging.info('==========开始登录cemaxueyuan02========')
+        logging.info('==========开始登录02========')
         l=fzhdenglu(self.driver)
-        l.denglu_kaishi('cemaxueyuan02','cema123456')
+        l.denglu_kaishi('try02','123456')
 
 
     def test_login_error(self):
